@@ -1,0 +1,97 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* La sección ocupa toda la altura de la pantalla */
+    background-image: url('/images/Hero-background.jpg'); /* Asegúrate de tener una imagen atractiva */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.heroContent {
+    z-index: 1;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+.heroTitle {
+    font-size: 2.8rem; /* Tamaño de texto grande */
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.heroSubtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Efecto de animación para el texto */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(70px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media Queries para hacer la sección responsiva */
+
+@media (max-width: 1000px) {
+
+    .heroTitle {
+        font-size: 3.5rem; /* Reduce el tamaño del título */
+        letter-spacing: 3px; /* Ajusta el espaciado de las letras */
+        margin-bottom: 15px; /* Menos espacio entre título y subtítulo */
+    }
+
+    .heroSubtitle {
+        font-size: 1.1rem; /* Reduce el tamaño del subtítulo */
+        max-width: 500px; /* Asegura que el texto no se vea demasiado largo */
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-size: cover; /* Fondo cubriendo toda la sección */
+        height: 80vh; /* Reduce la altura para dispositivos más pequeños */
+    }
+
+    .heroTitle {
+        font-size: 2.5rem; /* Reduce aún más el tamaño del título */
+        letter-spacing: 2px; /* Ajusta el espaciado de las letras */
+        margin-bottom: 10px; /* Menos espacio entre título y subtítulo */
+    }
+
+    .heroSubtitle {
+        font-size: 1rem; /* Reducir el tamaño del subtítulo en pantallas pequeñas */
+        max-width: 400px; /* Asegura que el texto no se vea demasiado largo */
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        height: 60vh; /* Reduce aún más la altura en dispositivos muy pequeños */
+    }
+
+    .heroTitle {
+        font-size: 1rem; /* Título más pequeño */
+        letter-spacing: 1px; /* Reduce el espaciado de las letras */
+        margin-bottom: 10px; /* Espacio reducido entre título y subtítulo */
+    }
+
+    .heroSubtitle {
+        font-size: 0.7rem; /* Reduce el tamaño del subtítulo */
+        max-width: 350px; /* Asegura que el texto no se vea demasiado largo */
+    }
+}
