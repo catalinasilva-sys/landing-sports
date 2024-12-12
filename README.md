@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Landing Sports
 
-## Getting Started
+*Landing Sports* es una página web enfocada en promover productos y servicios relacionados con deportes. Desarrollada con [Next.js](https://nextjs.org/), esta landing page es rápida, moderna y completamente optimizada para dispositivos móviles.
 
-First, run the development server:
+## Características principales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- *Diseño responsivo*: Adaptado a cualquier tamaño de pantalla.
+- *Rendimiento optimizado*: Gracias a las capacidades de servidor de Next.js.
+- *Código limpio y mantenible*.
+- *Fácil de personalizar* para diferentes tipos de deportes o propósitos.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías utilizadas
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- *Next.js*: Framework de React para el desarrollo web moderno.
+- *CSS/SCSS*: Para estilos personalizados.
+- *JavaScript*: Para la interacción y funcionalidad del sitio.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Instalación y configuración
 
-## Learn More
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clona el repositorio:
+   bash
+   git clone https://github.com/catalinasilva-sys/landing-sports.git
+   
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Accede al directorio del proyecto:
+   bash
+   cd landing-sports
+   
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Instala las dependencias:
+   bash
+   npm install
+   
 
-## Deploy on Vercel
+4. Inicia el servidor de desarrollo:
+   bash
+   npm run dev
+   
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. Abre tu navegador en http://localhost:3000 para ver la aplicación en acción.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Estructura del proyecto
+
+
+landing-sports/
+├── components/      # Componentes reutilizables de React
+├── pages/           # Rutas y vistas principales
+├── public/          # Archivos estáticos como imágenes
+├── styles/          # Archivos CSS/SCSS
+├── package.json     # Dependencias y scripts
+├── README.md        # Documentación del proyecto
+
+
+## Contribuciones
+
+Si deseas contribuir al proyecto:
+
+1. Realiza un fork del repositorio.
+2. Crea una nueva rama para tus cambios:
+   bash
+   git checkout -b mi-rama
+   
+3. Realiza tus modificaciones y haz un commit:
+   bash
+   git commit -m "Descripción de los cambios"
+   
+4. Sube tus cambios al repositorio remoto:
+   bash
+   git push origin mi-rama
+   
+5. Crea un Pull Request describiendo tus cambios.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarnos:
+
+- *Desarrollador/a*: Catalina Silva Palta
+- *Repositorio*: [GitHub - Landing Sports](https://github.com/catalinasilva-sys/landing-sports)
